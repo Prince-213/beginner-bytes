@@ -17,11 +17,12 @@ export const metadata: Metadata = {
     template: "%s | Beginner Bytes",
   },
   description:
-    "Join our 2-day tech event for beginners covering web development, mobile apps, AI, and digital marketing. Hands-on workshops and expert guidance.",
+    "Join our tech event for beginners covering web development, mobile apps, AI, and digital marketing. Hands-on workshops and expert guidance.",
   keywords: [
     "tech event",
     "enugu tech event",
     "nigeria tech event",
+    "beginner tech event",
     "beginner programming",
     "web development workshop",
     "digital marketing course",

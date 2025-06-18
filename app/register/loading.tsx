@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const loading = () => {
   return (
-    <div className=" absolute top-0 overflow-hidden left-0 w-full bg-white h-screen flex items-center justify-center">
+    <div className=" top-0 overflow-hidden left-0 w-full bg-white h-screen flex items-center justify-center">
       <Image
         src={"/loading.gif"}
         alt="Loading"
