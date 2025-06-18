@@ -11,7 +11,7 @@ import React, { useState } from "react";
 import { toast } from "sonner";
 
 const handleWhatsAppClick = async () => {
-  const whatsappUrl = "https://wa.me/2348166666666";
+  const whatsappUrl = "https://chat.whatsapp.com/Ikh5lXbF2MWItZNjfAag1N";
   window.open(whatsappUrl, "_blank");
 };
 
@@ -83,7 +83,7 @@ function SignupFormDemo() {
       // Small delay to ensure toast is visible before redirect
       await new Promise((resolve) => setTimeout(resolve, 1000));
       const message = `Hi! I just registered for BeginnerBytes. My name is ${name}`;
-      const whatsappUrl = `https://wa.me/2348166666666?text=${encodeURIComponent(message)}`;
+      const whatsappUrl = `https://chat.whatsapp.com/Ikh5lXbF2MWItZNjfAag1N?text=${encodeURIComponent(message)}`;
       window.location.href = whatsappUrl; // More reliable than window.open
     } catch (error) {
       console.error(error);
