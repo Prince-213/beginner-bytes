@@ -201,7 +201,7 @@ export default function FutureTechSummit() {
                     initial={{ rotate: 12, opacity: 0 }}
                     animate={{ rotate: 0, opacity: 1 }}
                     transition={{ delay: 0.3, duration: 0.8 }}
-                    className=" mr-7 overflow-hidden  relative transition-all duration-150 delay-75 cursor-pointer relative lg:w-[128px] lg:h-[135px] w-[60vw] h-[250px] shadow-md border-2 border-gray-300 shadow-gray-400 rounded-2xl "
+                    className=" mr-7 overflow-hidden  relative transition-all duration-150 delay-75 cursor-pointer relative lg:w-[128px] lg:h-[135px] w-[75vw] h-[250px] shadow-md border-2 border-gray-300 shadow-gray-400 rounded-2xl "
                   >
                     <Image
                       src={
@@ -470,7 +470,7 @@ export default function FutureTechSummit() {
 
           <motion.div variants={item}>
             <motion.div whileHover={hoverEffect}>
-              <Card className="rounded-sm h-[44vh] bg-white border-gray-100 shadow-gray-200 shadow-xl">
+              <Card className="rounded-sm h-fit lg:h-[44vh] bg-white border-gray-100 shadow-gray-200 shadow-xl">
                 <CardContent className="px-8 min-h-full flex flex-col justify-between py-3">
                   <div>
                     <p className="text-sm font-medium text-gray-500 mb-3">
@@ -491,7 +491,7 @@ export default function FutureTechSummit() {
 
           <motion.div variants={item}>
             <motion.div whileHover={hoverEffect}>
-              <Card className="rounded-sm h-[44vh] bg-white border-gray-100 shadow-gray-200 shadow-xl">
+              <Card className="rounded-sm h-fit lg:h-[44vh] bg-white border-gray-100 shadow-gray-200 shadow-xl">
                 <CardContent className="px-8 py-3 min-h-full flex flex-col justify-between">
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">
                     Venue
@@ -534,7 +534,7 @@ export default function FutureTechSummit() {
 
           <motion.div variants={item} className="">
             <motion.div whileHover={hoverEffect}>
-              <Card className="rounded-sm h-[44vh] bg-white border-gray-100 shadow-gray-200 shadow-xl">
+              <Card className="rounded-sm h-fit lg:h-[44vh] bg-white border-gray-100 shadow-gray-200 shadow-xl">
                 <CardContent className="px-8 min-h-full flex flex-col justify-between py-3">
                   <div>
                     <h3 className="text-4xl font-semibold text-gray-900 mb-4">
@@ -750,7 +750,7 @@ export default function FutureTechSummit() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            <h1 className="text-5xl bg-gradient-to-b from-neutral-500 to-neutral-900 bg-clip-text text-transparent pb-8 font-semibold w-full lg:text-8xl leading-[6rem]">
+            <h1 className="lg:text-5xl text-4xl bg-gradient-to-b from-neutral-500 to-neutral-900 bg-clip-text text-transparent pb-8 font-semibold w-full lg:text-8xl leading-[6rem]">
               Beginner
               <br />
               Bytes
