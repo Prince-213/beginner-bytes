@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postinstall": "next-sitemap && prisma generate ",
+    "postinstall": " prisma generate && next-sitemap",
     "lint": "next lint"
   },
   "dependencies": {

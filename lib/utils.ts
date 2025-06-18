@@ -8,7 +8,7 @@ export function cn(...inputs: ClassValue[]) {
 export const speakers = [
   {
     name: "Izuogu Prince Jonathan",
-    title: "CTO CODAFRI",
+    title: "CEO CODAFRI",
     image: "/beginnersbytes/prince.jpg",
   },
   {
