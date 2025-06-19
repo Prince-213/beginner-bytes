@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Beginner Bytes | Tech Event for Aspiring Developers",
     description:
-      "2-day tech event covering programming and digital marketing for beginners",
+      "A tech event covering programming and digital marketing for beginners",
     url: "https://beginnerbytes.com.ng",
     siteName: "Beginner Bytes",
     images: [
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Beginner Bytes | Tech Event for Aspiring Developers",
     description:
-      "2-day tech event covering programming and digital marketing for beginners",
+      "A tech event covering programming and digital marketing for beginners",
     images: ["/twitter-image.jpg"],
     creator: "@beginnerbytes",
   },
