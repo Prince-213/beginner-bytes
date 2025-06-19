@@ -104,9 +104,9 @@ export default function FutureTechSummit() {
     const eventDetails = {
       title: "Beginners Bite Tech Event",
       description:
-        "2-day tech event for beginners covering programming and digital marketing",
-      location: "Your Event Venue or Online",
-      startDate: "20240820T090000", // Format: YYYYMMDDTHHMMSS
+        "A tech event for beginners covering programming and digital marketing",
+      location: "New Haven, FirstBank",
+      startDate: "20240815T090000", // Format: YYYYMMDDTHHMMSS
       timeZone: "UTC", // Change to your timezone if needed
     };
 
@@ -585,8 +585,8 @@ export default function FutureTechSummit() {
         <motion.div className="text-center py-4" variants={slideUp}>
           <h1 className="text-5xl font-bold text-gray-900 mb-10">Programme</h1>
           <p className="text-gray-500">
-            <span className="font-semibold text-gray-600">Tuesday</span> October
-            15th, 2024
+            <span className="font-semibold text-gray-600">Friday</span>{" "}
+            {eventDetails.date}
           </p>
         </motion.div>
 
