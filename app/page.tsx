@@ -819,9 +819,8 @@ export default function FutureTechSummit() {
             <p>2025 &copy; All rights reserved</p>
             <span className=" flex items-center space-x-[10px]">
               <p>Powered by</p>
-              <Image width={100} height={100} alt="" src={"/CODAFRI.png"} />
+              <Image width={100} height={100} alt="" src={"/codafir.png"} />
             </span>
-            <Link href={"www.codafri.com"}>CODAFRI</Link>
           </div>
         </motion.div>
       </motion.footer>
