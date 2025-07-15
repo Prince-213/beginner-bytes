@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 "use client";
 
-import Lenis from "@studio-freight/lenis";
+import Lenis from "lenis";
 
 import { motion, AnimatePresence } from "motion/react";
 import { useLayoutEffect, useRef } from "react";
