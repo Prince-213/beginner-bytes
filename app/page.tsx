@@ -815,11 +815,11 @@ export default function FutureTechSummit() {
               ))}
             </motion.div>
           </div>
-          <div className=" text-center lg:text-left">
+          <div className=" text-center lg:text-left space-y-[10px]">
             <p>2025 &copy; All rights reserved</p>
-            <span className=" flex items-center space-x-[20px] space-y-[10px]">
+            <span className=" flex items-center space-x-[20px] ">
               <p>Powered by</p>
-              <Image width={60} height={60} alt="" src={"/codafir.png"} />
+              <Image width={100} height={100} alt="" src={"/codafir.png"} />
             </span>
           </div>
         </motion.div>
