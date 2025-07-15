@@ -10,7 +10,7 @@ import { InfiniteMovingCards } from "@/components/infinite-moving-cards";
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
-import Link from "next/link";
+
 import { speakers, workshopTopics } from "@/lib/utils";
 
 import { useRouter } from "next/navigation";
