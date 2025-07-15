@@ -28,12 +28,12 @@ export const speakers = [
   },
   {
     name: "Okah IfeanyiChukwu (Nature)",
-    title: "CTO CCDAFRI",
+    title: "CTO CODAFRI",
     image: "/beginnersbytes/nature.jpg",
   },
   {
     name: "Ikwueze chibuzo Henry",
-    title: "CMO CCDAFRI",
+    title: "CMO CODAFRI",
     image: "/beginnersbytes/original1.jpg",
   },
 ];
