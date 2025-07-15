@@ -816,7 +816,11 @@ export default function FutureTechSummit() {
           </div>
           <div className=" text-center lg:text-left">
             <p>2025 &copy; All rights reserved</p>
-            <p>Built by CODAFRI</p>
+            <span className=" flex items-center space-x-[10px]">
+              <p>Powered by</p>
+              <Image width={100} height={100} alt="" src={"/CODAFRI.png"} />
+            </span>
+            <Link href={"www.codafri.com"}>CODAFRI</Link>
           </div>
         </motion.div>
       </motion.footer>
